@@ -1,9 +1,9 @@
  body {
-        display: none;
+        opacity: 0;
     }
 @media screen and (max-width: 768px) {
     body {
-        display: normal;
+       
         background-color: #fff;
         color: #000;
         scroll-behavior: smooth;
@@ -431,6 +431,7 @@
     }
 
 }
+
 
 
 
