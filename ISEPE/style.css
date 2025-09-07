@@ -34,7 +34,7 @@
     header h1 {
         width: 50%;
         height: max-content;
-        margin-top: 4px;
+        margin-top: 12px;
         display: flex;
         flex-flow: row;
         align-items: center;
@@ -437,6 +437,7 @@
     }
 
 }
+
 
 
 
