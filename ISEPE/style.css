@@ -33,7 +33,7 @@
 
     header h1 {
         width: 50%;
-        margin-top: 40px;
+        margin-bottom: -200px;
         display: flex;
         flex-flow: row;
         font-size: 24px;
@@ -435,6 +435,7 @@
     }
 
 }
+
 
 
 
