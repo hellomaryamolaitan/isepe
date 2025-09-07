@@ -127,6 +127,10 @@
         align-items: center;
     }
 
+ main p {
+        font-size: 14px;
+    }
+
     main .hero {
         width: 100%;
         height: max-content;
@@ -431,6 +435,7 @@
     }
 
 }
+
 
 
 
