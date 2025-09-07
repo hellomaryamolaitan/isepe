@@ -33,9 +33,9 @@
 
     header h1 {
         width: 50%;
+        margin-top: 8px;
         display: flex;
         flex-flow: row;
-        align-items: center;
         font-size: 24px;
         font-family: "Macondo";
         font-weight: 400;
@@ -435,6 +435,7 @@
     }
 
 }
+
 
 
 
