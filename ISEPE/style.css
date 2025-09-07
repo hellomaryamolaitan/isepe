@@ -20,7 +20,7 @@
         width: 96%;
         height: 68px;
         margin: 0 auto;
-        padding: 0 8px;
+        padding:  8px;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
@@ -111,7 +111,7 @@
     }
 
     .header-hr {
-        top: 56px;
+        top: 68px;
         z-index: 1;
         position: sticky;
     }
@@ -435,6 +435,7 @@
     }
 
 }
+
 
 
 
