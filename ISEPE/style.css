@@ -1,0 +1,428 @@
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #fff;
+        color: #000;
+        scroll-behavior: smooth;
+        width: 98vw;
+        height: fit-content;
+        margin: 0 auto;
+        scrollbar-width: none;
+        font-family: "Cormorant Garamond", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    header {
+        width: 96%;
+        height: 56px;
+        margin: 0 auto;
+        padding: 0 8px;
+        display: flex;
+        flex-flow: row;
+        justify-content: right;
+        align-items: center;
+        background-color: #fff;
+        top: 0;
+        z-index: 1;
+        position: sticky;
+    }
+/* 
+    header h1 {
+        width: 50%;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        font-size: 24px;
+        font-family: "Macondo";
+        font-weight: 400;
+        font-style: normal;
+    } */
+
+    .menu {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        display: flex;
+        flex-flow: row;
+        float: right;
+        cursor: pointer;
+    }
+
+    #menuList {
+        transition: all 0.25s;
+    }
+    
+    nav ul {
+        width: 96%;
+        height: 96vh;
+        margin: 0 auto;
+        flex-flow: column;
+        top: 40px;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+        background-color: #fff;
+        display: flex;
+        flex-flow: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        margin-bottom: 28px;
+        margin-left: -20px;
+        list-style: none;
+    }
+
+    ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 12px;
+        color: #000;
+        text-decoration: none;
+        font-family: "Macondo";
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    li a:hover {
+        opacity: 60%;
+    }
+
+    li .cart {
+        width: 14px;
+        height: 14px;
+        animation: cart  4s infinite;
+    }
+
+    @keyframes cart { 
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    nav ul li img:hover {
+        animation-play-state: paused;
+    }
+
+    .header-hr {
+        top: 56px;
+        z-index: 1;
+        position: sticky;
+    }
+
+    main {
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .hero {
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+        margin-bottom: 48px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .hero img {
+        width: 96%;
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .hero .caption {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 12px;
+        font-size: 10px;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .detail {
+        width: 96%;
+        height: max-content;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .detail div {
+        width: 88%;
+        height: max-content;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly; 
+        align-items: center;
+        border-top: 4px solid #000;
+        border-bottom: 4px solid #000;
+        border-top-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+        padding: 20px;
+        background-color: #000; color: #fff;
+
+    }
+
+    .detail span {
+        font-weight: 600;
+        margin-right: 12px;
+    }
+
+    .detail div hr {
+        width: 100%;
+    }
+
+    .bio {
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .bio div {
+        width: 96%;
+        height: max-content;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .bio div img {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .bio .author img {
+        border-top-left-radius: 20%;
+        border-left: 8px solid #67a7e7;
+    }
+    .bio .host img {
+        border-radius: 8%;
+        border-bottom: 8px solid #000;
+    }
+    .bio .moderator img {
+        border-top-right-radius: 20%;
+        border-right: 8px solid #000;
+    }
+
+    .name, .role {
+        text-align: center;
+    }
+
+   .name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .role {
+        margin-top: -8px;
+    }
+
+    .paragraph {
+        width: 96%;
+        margin-top: 8px;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    .question {
+        width: 96%;
+        height: max-content;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .question span {
+        font-weight: 600;
+    }
+
+    .question a, .explore .container div a {
+        width: fit-content;
+        padding: 4px 12px;
+        border: 2px solid #000;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+
+   .question a, .explore .container div a, .explore .container div a:visited, .question a:visited {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .explore {
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .explore .container {
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        font-style: italic;
+    }
+
+    .explore .container div {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .explore .container div img {
+        width: 96%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+     .explore .container div p span {
+        font-weight: 600;
+        font-style: normal;
+    }
+
+
+
+
+
+    .hero, .detail, .bio, .question, .explore {
+        margin-bottom: 40px;
+    }
+
+
+    .home-btn {
+        position: sticky;
+        bottom: 4%;
+        left: 100%;
+        z-index: 1;
+        overflow: hidden;
+        font-size: 20px;
+        color: #000;
+        text-decoration: none;
+        scroll-behavior: smooth;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+
+
+
+    footer {
+        width: 96%;
+        height: 40px;
+        margin: 0 auto;
+        padding: auto;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    footer .icon-container {
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    footer .icon-container .icon {
+        width: 18px;
+        height: 18px;
+        margin-left: 20px;
+    }
+
+    footer .icon-container .icon:hover {
+        opacity: 60%;
+    }
+
+    a, a:hover, a:visited  {
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 40px;
+    }
+    
+    header h1 {
+        font-size: 16px;
+    }
+    
+    header h1, .menu {
+        margin-top: 4px;
+    }
+
+    .header-hr {
+        top: 40px;
+    }
+
+    .menu {
+        width: 16px;
+        height: 16px;
+    }
+
+    .hero {
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 32%;
+    }
+
+     footer p {
+        font-size: 12px;
+    }
+
+    footer .icon-container .icon {
+        width: 16px;
+        height: 16px;
+        margin-left: 12px;
+    }
+
+}
+
+@media screen and (max-width: 328px) {
+    footer .icon-container .icon {
+        width: 14px;
+        height: 14px;
+        margin-left: 12px;
+    }
+}
