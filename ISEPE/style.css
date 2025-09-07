@@ -18,7 +18,7 @@
 
     header {
         width: 96%;
-        height: 60px;
+        height: 68px;
         margin: 0 auto;
         padding: 0 8px;
         display: flex;
@@ -111,7 +111,7 @@
     }
 
     .header-hr {
-        top: 60px;
+        top: 68px;
         z-index: 1;
         position: sticky;
     }
@@ -435,6 +435,7 @@
     }
 
 }
+
 
 
 
