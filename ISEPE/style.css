@@ -20,7 +20,7 @@
         width: 96%;
         height: 60px;
         margin: 0 auto;
-        padding:  8px;
+        padding: 0 8px;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
@@ -435,6 +435,7 @@
     }
 
 }
+
 
 
 
