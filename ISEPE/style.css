@@ -1,3 +1,6 @@
+ body {
+        display: none;
+    }
 @media screen and (max-width: 768px) {
     body {
         background-color: #fff;
@@ -425,4 +428,5 @@
         height: 14px;
         margin-left: 12px;
     }
+
 }
